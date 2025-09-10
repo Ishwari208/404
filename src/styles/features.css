@@ -1,0 +1,40 @@
+/* Base gradient background for cards */
+.feature-card {
+    background: linear-gradient(135deg, rgba(42, 45, 62, 0.8), rgba(173, 216, 230, 0.6));
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover effect: Neon Glow + Color Shift */
+  .feature-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: linear-gradient(135deg, rgba(30, 144, 255, 0.8), rgba(255, 255, 255, 0.7));
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.7), 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Soft lift effect when clicking */
+  .feature-card:active {
+    transform: scale(0.98);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(58, 105, 173, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #3a69ad;
+    border-color: #3f7fd2;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4d7fc7;
+    border-color: #3a69ad;
+  }
+  

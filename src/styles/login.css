@@ -1,0 +1,70 @@
+/* Background styling (dark gradient for Netflix effect) */
+.login-container {
+background: #333;    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Card styling */
+  .login-card {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form Input field styling */
+  .input-field {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border: 2px solid #e50914;
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color:#e50914 ;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  /* Text styling for "New to our platform?" */
+  p {
+    font-size: 14px;
+  }
+  
+  a {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Alert styling */
+  .alert {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
